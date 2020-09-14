@@ -1,0 +1,47 @@
+Intro to Git Hub : 
+
+1) To goto the github you need to goto :
+-		www.github.com
+
+2) To create new reposotery :
+-		+
+-		Django3-password-generator		(No Space is allowed.)
+-		Public					(need to select public or private in the repository.) we must not select file
+-		Create repository			(Click)
+
+
+
+
+3)	Next step :
+-	go to the git and type....  (and peast the note provided the site.) 
+- 	git remote add origin git@github.com:SouvikBhattacharji2020/My_Code.git
+-	git branch -M master
+-	git push -u origin master
+
+
+
+…or create a new repository on the command line
+echo "# My_Code" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin git@github.com:SouvikBhattacharji2020/My_Code.git
+git push -u origin master
+                
+…or push an existing repository from the command line
+git remote add origin git@github.com:SouvikBhattacharji2020/My_Code.git
+git branch -M master
+git push -u origin master
+
+
+
+
+
+4) Copy the data to the git :
+-		mkdir hello
+-		cd hello
+-       ls 
+-		git clone https://github.com/zappycode/django3-password-generator.git
+
+

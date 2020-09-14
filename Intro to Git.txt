@@ -1,0 +1,56 @@
+Into to Git :
+
+1) To check whether Git is install or not 
+-    git
+
+
+2) First time Git Setup :
+-	 $ git config --global user.name "Souvik Bhattacharji"
+-    $ git config --global user.email souvik.asansolution2020@gmail.com
+
+
+3)  To create git project we need to 
+-    cd E:\Programming_SourceCodes
+-    git init
+
+4) To check whether git is install inside or not
+-	 ls
+-	 ls -a
+note: all the .file are suppose to be hidden
+
+5) To Know the Git Status :
+-	 git status
+Note: it shows what is the conditon in the repositry
+
+6) The goto stage enviroment :
+-	 git add -A
+-    git status
+Note: Add the total to the main reprosetary.
+
+7) To commit the Git we need to :
+ - 	 git commit -m "My first Commit" 
+ - 	 git status
+Note: Every thing is commited.
+
+8) After upgradetion we need to commit again :
+-	 git add -A
+-	 git status
+-	 git commit -m "My new Commit"
+
+
+
+
+
+Git Use :
+
+1) To remove any commit we need to use :
+-	 git stash
+Note: To go back privious stage and not to use the current one.
+
+2) To view my all the commit :
+- 	 git log
+
+3) To go back any privious commit we need to :
+-	 git checkout cfa81f55aa71fec531b3190709d3c85f3c547fa3          (Enter)
+
+
